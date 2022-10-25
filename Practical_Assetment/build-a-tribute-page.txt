@@ -1,0 +1,41 @@
+** start of undefined **
+
+<link rel="stylesheet" href="styles.css">
+<main id="main">
+  <title id="title">Dr.Norman Borlaug</title>
+
+  <div id="img-div">b
+    <img id="image">a</img>
+
+    <div id="img-caption">IMG-caption</div>
+    <p id="tribute-info">tribute</p>
+    <a id="tribute-link" href="" target="_blank"></a>
+  </div>
+</main>
+
+** end of undefined **
+
+** start of undefined **
+
+#main{
+
+}
+#img-div{
+   
+}
+#image{
+max-width:100%;
+display:block;
+margin-left: auto;
+margin-right: auto;
+}
+#img-caption{
+
+}
+#tribute-info{
+
+}
+
+
+** end of undefined **
+

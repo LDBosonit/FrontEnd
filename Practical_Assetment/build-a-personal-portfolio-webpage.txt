@@ -1,0 +1,64 @@
+** start of undefined **
+
+<link rel="stylesheet" href="styles.css">
+<html>
+<body>
+  <nav>
+    <div id="navbar">
+      <ul id="links">
+        <li><a href="#welcome-section"         class="nav-link">About me</a></li>
+        <li><a href="#projects" class="nav-link">work</a></li>
+        <li><a href="#social"             class="nav-link">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div id="welcome-section">
+    <h1>Luis Doblas</h1>
+  </div>
+
+  <section id="projects">
+    <div>
+      <div class="project-tile">
+        <a href="https://github.com/" target="_blank">
+        <div class="protitle">Home</div>
+        </a>
+      </div>
+
+      <div class="project-tile">
+        <a href="https://github.com/" target="_blank">
+
+      <div class="protitle">Contact</div>
+        </a> 
+    </div>
+
+    </div>
+  </section>
+
+  <section class="social">
+       <a href="https://github.com/" id="profile-link" target="_blank">
+          <h5>Perfil</h5>
+        </a>
+  </section>
+
+</body>
+
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+@media{
+  
+}
+
+#navbar {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+
+
+** end of undefined **
+
