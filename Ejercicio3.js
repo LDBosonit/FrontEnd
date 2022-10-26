@@ -8,7 +8,8 @@ const arrCities = [
   ]
 
   function cities(){
-    let result = arrCities.filter(arrCitie => arrCitie.country === "Spain" && arrCitie.capital === false);
+    //let result = arrCities.filter(arrCitie => arrCitie.country === "Spain" && arrCitie.capital === false);
+    let result = arrCities.filter(arrCitie => !arrCitie.capital );
     return result;
   }
   console.log(cities());
