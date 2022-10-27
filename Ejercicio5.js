@@ -1,22 +1,24 @@
 const arrCities = [
-  { city: "Logroño", country: "Spain", capital: false, isSpain: true },
-  { city: "Paris", country: "France", capital: true, isSpain: false },
-  { city: "Madrid", country: "Spain", capital: true, isSpain: true },
-  { city: "Rome", country: "Italy", capital: true, isSpain: false },
-  { city: "Oslo", country: "Norway", capital: true, isSpain: false },
-  { city: "Jaén", country: "Spain", capital: false, isSpain: true },
+  { city: "Logroño", country: "Spain", capital: false},
+  { city: "Paris", country: "France", capital: true},
+  { city: "Madrid", country: "Spain", capital: true },
+  { city: "Rome", country: "Italy", capital: true },
+  { city: "Oslo", country: "Norway", capital: true },
+  { city: "Jaén", country: "Spain", capital: false },
 ];
 
 function cities(){
-  const result = [];
 
-  arrCities.forEach((index) => {
-    if (index.capital === false) {
-      result.push(index);
-    }
-  }); 
-  return result;
+  const nuevoArr = []
+  const filtro = arrCities.map(obj => !obj.capital ?{city:obj.city, isSpain:true}:function(element){
+    return `${element.city}${element.isSpain}`;
+  })
+  nuevoArr.push(filtro);
+  
+  return nuevoArr;
 }
+
+console.log(cities());
 
 /*function cities() {
   let result = arrCities2.filter(
@@ -25,4 +27,4 @@ function cities(){
   return result;
 }*/
 
-console.log(cities());
+
