@@ -10,7 +10,7 @@ const arrCities = [
 function cities(){
 
   const nuevoArr = []
-  const filtro = arrCities.map((obj) =>({obj:obj.city, isSpain: !obj.capital }),function(element){
+  const filtro = arrCities.map((obj) =>({city:obj.city, isSpain: !obj.capital }),function(element){
     return `${element.city}${element.isSpain}`;
   })
   nuevoArr.push(filtro);
